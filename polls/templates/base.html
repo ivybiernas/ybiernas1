@@ -1,4 +1,5 @@
 {% load static %}
+
 <html>
   <head>
     <title>
@@ -14,8 +15,8 @@
     {% block body %}
       12345
     {% endblock %}
-    <script src="{% static 'polls/materialize/js/materialize.min.css' %}">
-    {% block scripts %}
-    {% endblock %}
+    <script src="{% static 'polls/materialize/js/materialize.min.js' %}"> </script>
   </body>
+  {% block scripts %}
+  {% endblock %}
 </html>
